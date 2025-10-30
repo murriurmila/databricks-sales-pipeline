@@ -1,6 +1,6 @@
 # Databricks Notebook: Real-Time Sales ETL Pipeline
 # Author: Urmila Murri
-# Date: Aug 2024
+
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, to_date, year, month, sum as _sum
